@@ -9,7 +9,7 @@
     tools:context=".SearchActivity" >
 
     <EditText
-        android:id="@+id/etSearchQuery"
+        android:id="@+id/etQuery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -28,6 +28,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/etSearchQuery"
         android:layout_marginRight="20dp"
+        android:onClick="onImageSearch"
         android:text="@string/searchButtonText" />
 
     <GridView

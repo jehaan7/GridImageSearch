@@ -6,5 +6,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="searchButtonText">Search</string>
     <string name="searchTermHint">Enter search term</string>
+    <string name="title_activity_image_display">ImageDisplayActivity</string>
 
 </resources>
